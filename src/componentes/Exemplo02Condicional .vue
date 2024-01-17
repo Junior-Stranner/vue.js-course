@@ -1,13 +1,17 @@
 <!--Script-->
 <script setup>
-  //vetor
-  let nomes = ["Alice","Bruna","Caio","Daniel","Ellen"]
+
+let exibir = true;
+let media = 8;
+
 </script>
 
 <!--HTML-->
 <template>
-  
-  <ul>
-    <li v-for="nome in nomes">{{nomes}}</li>
-  </ul>
+
+  <h1 v-if="exibir">Hello world</h1>
+
+<p v-if="media >= 7">Aprovado/a</p>
+<p v-else-if="media >= 5">Em exame</p>
+<p v-else>Reprovado/a</p>
 </template>

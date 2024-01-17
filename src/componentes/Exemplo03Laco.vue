@@ -1,16 +1,15 @@
 <!--Script-->
 <script setup>
-  //variável
-  let exibir = true
-  let media = 6.5;
+
+  //vetor
+  let nomes = ["Alice","Bruna","Caio","Daniel","Ellen"]
+
 </script>
 
 <!--HTML-->
 <template>
-  
-  <h1 v-if="exibir">Hello world</h1>
 
-  <p v-if="media >= 7">Aprovado/a</p>
-  <p v-else-if="media >= 5">Em exame</p>
-  <p v-else>Reprovado/a</p>
+   <ul>
+    <li v-for="nome in nomes">{{nomes}}</li>
+   </ul>
 </template>
