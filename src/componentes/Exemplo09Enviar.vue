@@ -22,4 +22,6 @@
    com a mensagem "Formulário enviado!".Este é um exemplo básico de como lidar com eventos de formulário em um componente Vue.js.-->
 
               <!-- 1 versão Aula 15 -->
-
+<!-- Sobre  event.preventDefault(); Essa técnica é comumente usada para validar dados de formulário,
+   interagir com APIs antes de enviar dados, ou para impedir envios acidentais 
+  de formulários enquanto ainda está manipulando a entrada do usuário.-->
