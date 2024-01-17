@@ -11,6 +11,7 @@ import { ref } from 'vue';
 <!--HTML-->
 <template>
   
-  <input type="text">
+  <input type="text" v-model="texto">
+  <p>{{texto}}</p>
 
 </template>
