@@ -1,17 +1,14 @@
-<!--Script-->
+<!--SCRIPT-->
 <script setup>
-  
-  //ariáveis
-  let nome = 'Junior';
-  let idade = 22;
-  let numero1 = 10;
-  let numero2 = 5;
+//Importacao dos componentes
+//import Exemplo01 from "./componentes/Exemplo01Interpolacao.vue";
+//import Exemplo02 from "./componentes/Exemplo02Condicional .vue";
+import Exemplo03 from "./componentes/Exemplo03Laco.vue";
+
 
 </script>
 
 <!--HTML-->
 <template>
-    <p>{{"olá "+nome+"idade "+idade}}</p>
-    <p>{{numero1 + numero2 }}</p>
-
+  <Exemplo01></Exemplo01>
 </template>
