@@ -12,7 +12,9 @@
 //import Exemplo09 from "./componentes/Exemplo09Enviar.vue";
 //import Exemplo10 from "./componentes/Exemplo10Lifecycle.vue";
 //import Exemplo11 from "./componentes/Exemplo11Props1.vue";
-import Exemplo12 from "./componentes/Rotas/Exemplo12Rotas.vue";
+//import Exemplo12 from "./componentes/Rotas/Exemplo12Rotas.vue";
+import Exemplo13 from "./componentes/Exemplo13Requisicao.vue";
+
 
 
 
@@ -20,5 +22,5 @@ import Exemplo12 from "./componentes/Rotas/Exemplo12Rotas.vue";
 
 <!--HTML-->
 <template>
-  <Exemplo11></Exemplo11>
+  <Exemplo13></Exemplo13>
 </template>
