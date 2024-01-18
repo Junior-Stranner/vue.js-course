@@ -13,14 +13,12 @@
 //import Exemplo10 from "./componentes/Exemplo10Lifecycle.vue";
 //import Exemplo11 from "./componentes/Exemplo11Props1.vue";
 //import Exemplo12 from "./componentes/Rotas/Exemplo12Rotas.vue";
-import Exemplo13 from "./componentes/Exemplo13Requisicao.vue";
-
-
-
+//import Exemplo13 from "./componentes/Exemplo13Requisicao.vue";
+import Exemplo14 from "./componentes/Exemplo14Bootstrap.vue";
 
 </script>
 
 <!--HTML-->
 <template>
-  <Exemplo13></Exemplo13>
+  <Exemplo14></Exemplo14>
 </template>
